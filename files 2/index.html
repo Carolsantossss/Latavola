@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Tavola — Cozinha autoral em São Paulo</title>
+<meta name="description" content="La Tavola. Sabores artesanais, ingredientes selecionados e momentos que merecem ser lembrados. Reserve sua mesa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- HEADER -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#inicio" class="logo">
+      <span class="logo-mark">LT</span>
+      <span class="logo-word">LA TAVOLA</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio" class="nav-link">Início</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#cardapio" class="nav-link">Cardápio</a>
+      <a href="#galeria" class="nav-link">Galeria</a>
+      <a href="#avaliacoes" class="nav-link">Avaliações</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-primary btn-small reserve-trigger">Reservar mesa</button>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#inicio" class="mobile-link">Início</a>
+    <a href="#sobre" class="mobile-link">Sobre</a>
+    <a href="#cardapio" class="mobile-link">Cardápio</a>
+    <a href="#galeria" class="mobile-link">Galeria</a>
+    <a href="#avaliacoes" class="mobile-link">Avaliações</a>
+    <a href="#contato" class="mobile-link">Contato</a>
+    <button class="btn btn-primary reserve-trigger mobile-cta">Reservar mesa</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-inner">
+    <div class="hero-copy reveal">
+      <span class="eyebrow"><i></i>Cozinha autoral &middot; São Paulo</span>
+      <h1 class="hero-title">Uma experiência que&nbsp;começa no <em>primeiro sabor.</em></h1>
+      <p class="hero-sub">Sabores artesanais, ingredientes selecionados e momentos que merecem ser lembrados.</p>
+      <div class="hero-actions">
+        <a href="#cardapio" class="btn btn-primary">Ver cardápio</a>
+        <button class="btn btn-outline reserve-trigger">Reservar uma mesa</button>
+      </div>
+      <div class="hero-hours">
+        <span class="dot-live"></span>
+        Aberto hoje <strong>&bull; 18:00 — 23:30</strong>
+      </div>
+    </div>
+
+    <div class="hero-media reveal">
+      <div class="hero-frame">
+        <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1200&q=80" alt="Prato assinatura do La Tavola, montado com molho reduzido e ervas frescas">
+      </div>
+      <div class="badge-seal" aria-hidden="true">
+        <svg viewBox="0 0 160 160" class="seal-ring">
+          <path id="sealPath" d="M 80,80 m -62,0 a 62,62 0 1,1 124,0 a 62,62 0 1,1 -124,0" fill="none"/>
+          <text font-size="11.5" letter-spacing="3.2">
+            <textPath href="#sealPath" startOffset="0%">LA TAVOLA &middot; SÃO PAULO &middot; DESDE 2016 &middot; </textPath>
+          </text>
+        </svg>
+        <span class="seal-center">LT</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- DESTAQUES -->
+<section class="highlights">
+  <div class="container">
+    <div class="highlight-grid">
+      <div class="highlight-card reveal">
+        <span class="hl-icon">01</span>
+        <h3>Ingredientes selecionados</h3>
+        <p>Produtos frescos escolhidos diariamente.</p>
+      </div>
+      <div class="highlight-card reveal">
+        <span class="hl-icon">02</span>
+        <h3>Feito artesanalmente</h3>
+        <p>Cada prato preparado com cuidado pela nossa equipe.</p>
+      </div>
+      <div class="highlight-card reveal">
+        <span class="hl-icon">03</span>
+        <h3>Uma experiência completa</h3>
+        <p>Do ambiente ao último detalhe do prato.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- SOBRE -->
+<section class="about" id="sobre">
+  <div class="container about-grid">
+    <div class="about-media reveal">
+      <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=80" alt="Ambiente interno do restaurante La Tavola, mesas postas e luz quente">
+      <div class="about-media-tag">Nosso salão &middot; São Paulo</div>
+    </div>
+    <div class="about-copy reveal">
+      <span class="eyebrow"><i></i>Sobre o La Tavola</span>
+      <h2>Mais do que <em>uma refeição.</em></h2>
+      <p>O La Tavola nasceu da paixão por transformar ingredientes simples em experiências memoráveis. Nosso menu combina técnicas tradicionais com uma abordagem contemporânea — pensado para quem valoriza cada detalhe, do preparo ao acolhimento.</p>
+      <p>Cada prato é assinado pela nossa cozinha com a mesma atenção que reservaríamos para receber alguém especial em nossa própria casa.</p>
+      <a href="#" class="link-underline">Conheça nossa história &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- CARDÁPIO -->
+<section class="menu" id="cardapio">
+  <div class="container">
+    <div class="section-heading center reveal">
+      <span class="eyebrow center"><i></i>Cardápio</span>
+      <h2>Escolhas da casa</h2>
+      <p class="section-lede">Uma seleção do que preparamos com mais carinho — do primeiro toque ao último gole de café.</p>
+    </div>
+
+    <div class="menu-columns">
+      <div class="menu-category reveal">
+        <h3 class="menu-cat-title">Entradas</h3>
+        <ul class="menu-list">
+          <li><span class="mi-name">Burrata artesanal</span><span class="mi-leader"></span><span class="mi-price">R$ 38</span></li>
+          <li><span class="mi-name">Carpaccio La Tavola</span><span class="mi-leader"></span><span class="mi-price">R$ 42</span></li>
+          <li><span class="mi-name">Bruschetta italiana</span><span class="mi-leader"></span><span class="mi-price">R$ 29</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-category reveal">
+        <h3 class="menu-cat-title">Pratos principais</h3>
+        <ul class="menu-list">
+          <li><span class="mi-name">Risoto de parmesão e cogumelos</span><span class="mi-leader"></span><span class="mi-price">R$ 58</span></li>
+          <li><span class="mi-name">Filé ao molho de vinho</span><span class="mi-leader"></span><span class="mi-price">R$ 72</span></li>
+          <li><span class="mi-name">Massa artesanal ao pomodoro</span><span class="mi-leader"></span><span class="mi-price">R$ 49</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-category reveal">
+        <h3 class="menu-cat-title">Sobremesas</h3>
+        <ul class="menu-list">
+          <li><span class="mi-name">Tiramisù clássico</span><span class="mi-leader"></span><span class="mi-price">R$ 26</span></li>
+          <li><span class="mi-name">Panna cotta</span><span class="mi-leader"></span><span class="mi-price">R$ 24</span></li>
+          <li><span class="mi-name">Brownie com sorvete</span><span class="mi-leader"></span><span class="mi-price">R$ 28</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-photos reveal">
+      <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=500&q=80" alt="Burrata artesanal servida com azeite e ervas">
+      <img src="https://images.unsplash.com/photo-1481931098730-318b6f776db0?auto=format&fit=crop&w=500&q=80" alt="Massa artesanal ao pomodoro">
+      <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=500&q=80" alt="Tiramisù clássico">
+    </div>
+
+    <div class="menu-cta reveal">
+      <a href="#" class="btn btn-outline">Ver cardápio completo</a>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- GALERIA -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <div class="section-heading center reveal">
+      <span class="eyebrow center"><i></i>Galeria</span>
+      <h2>A experiência La Tavola</h2>
+    </div>
+
+    <div class="gallery-grid reveal">
+      <div class="gallery-item tall"><img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&fit=crop&w=700&q=80" alt="Mesa posta no salão do restaurante"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=700&q=80" alt="Prato de massa artesanal"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=700&q=80" alt="Detalhe de prato montado"></div>
+      <div class="gallery-item tall"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80" alt="Pessoas jantando à luz de velas"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=700&q=80" alt="Taça de vinho tinto sobre a mesa"></div>
+      <div class="gallery-item"><img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=700&q=80" alt="Detalhe de decoração da mesa"></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><span></span><i></i><span></span></div>
+
+<!-- AVALIAÇÕES -->
+<section class="reviews" id="avaliacoes">
+  <div class="container">
+    <div class="section-heading center reveal">
+      <span class="eyebrow center"><i></i>Avaliações</span>
+      <h2>O que nossos clientes dizem</h2>
+    </div>
+
+    <div class="review-grid">
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>&ldquo;Ambiente incrível, atendimento impecável e a comida estava simplesmente perfeita.&rdquo;</p>
+        <span class="review-name">Mariana Oliveira</span>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>&ldquo;Cada prato parecia contar uma história. Voltamos na semana seguinte só pelo risoto.&rdquo;</p>
+        <span class="review-name">Rafael Costa</span>
+      </div>
+      <div class="review-card reveal">
+        <div class="stars">★★★★★</div>
+        <p>&ldquo;Reservamos para um jantar especial e superou qualquer expectativa. Recomendo de olhos fechados.&rdquo;</p>
+        <span class="review-name">Beatriz Lins</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-band">
+  <div class="container cta-inner reveal">
+    <h2>Sua próxima experiência <em>começa aqui.</em></h2>
+    <p>Reserve sua mesa e venha descobrir o sabor do La Tavola.</p>
+    <button class="btn btn-primary reserve-trigger">Reservar minha mesa</button>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section class="location" id="contato">
+  <div class="container location-grid">
+    <div class="location-info reveal">
+      <span class="eyebrow"><i></i>Onde estamos</span>
+      <h2>Localização</h2>
+
+      <ul class="info-list">
+        <li>
+          <span class="info-icon">&#128205;</span>
+          <div><strong>Endereço</strong><p>Rua Haddock Lobo, 000 — São Paulo, SP</p></div>
+        </li>
+        <li>
+          <span class="info-icon">&#8987;</span>
+          <div><strong>Horário</strong><p>Segunda a domingo &middot; 18:00 — 23:30</p></div>
+        </li>
+        <li>
+          <span class="info-icon">&#128222;</span>
+          <div><strong>Telefone</strong><p>(11) 99999-9999</p></div>
+        </li>
+      </ul>
+
+      <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-outline">Como chegar</a>
+    </div>
+
+    <div class="location-map reveal" aria-hidden="true">
+      <svg viewBox="0 0 400 320" class="map-art">
+        <rect width="400" height="320" fill="none"/>
+        <g stroke="#C6A15B" stroke-opacity="0.35" stroke-width="1">
+          <line x1="0" y1="60" x2="400" y2="40"/>
+          <line x1="0" y1="150" x2="400" y2="170"/>
+          <line x1="0" y1="260" x2="400" y2="250"/>
+          <line x1="70" y1="0" x2="40" y2="320"/>
+          <line x1="220" y1="0" x2="250" y2="320"/>
+          <line x1="330" y1="0" x2="360" y2="320"/>
+        </g>
+        <circle cx="205" cy="150" r="7" fill="#A8461F"/>
+        <circle cx="205" cy="150" r="16" fill="none" stroke="#A8461F" stroke-width="1.2" opacity="0.6"/>
+        <circle cx="205" cy="150" r="26" fill="none" stroke="#A8461F" stroke-width="1" opacity="0.3"/>
+        <text x="205" y="122" text-anchor="middle" fill="#F6F1E7" font-size="11" letter-spacing="2" font-family="Manrope, sans-serif">LA TAVOLA</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#inicio" class="logo">
+        <span class="logo-mark">LT</span>
+        <span class="logo-word">LA TAVOLA</span>
+      </a>
+      <p>Sabores que transformam momentos.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/5511999999999" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="#contato">Localização</a>
+      <a href="#cardapio">Cardápio</a>
+      <button class="footer-link-btn reserve-trigger">Reservas</button>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">&copy; 2026 La Tavola. Todos os direitos reservados.</div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a class="whatsapp-float" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20reserva%20no%20La%20Tavola." target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.5-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2 1 1-3.1-.2-.3C3.5 15 3 13.5 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+</a>
+
+<!-- MODAL RESERVA -->
+<div class="reserve-overlay" id="reserveOverlay">
+  <div class="reserve-modal">
+    <button class="reserve-close" id="reserveClose" aria-label="Fechar">&times;</button>
+
+    <div id="reserveFormWrap">
+      <span class="eyebrow"><i></i>Reservar mesa</span>
+      <h3>Sua mesa no La Tavola</h3>
+      <form id="reserveForm">
+        <div class="field">
+          <label for="rName">Nome</label>
+          <input type="text" id="rName" name="rName" required placeholder="Seu nome completo">
+        </div>
+        <div class="field">
+          <label for="rPhone">Telefone</label>
+          <input type="tel" id="rPhone" name="rPhone" required placeholder="(11) 90000-0000">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="rDate">Data</label>
+            <input type="date" id="rDate" name="rDate" required>
+          </div>
+          <div class="field">
+            <label for="rTime">Horário</label>
+            <input type="time" id="rTime" name="rTime" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="rGuests">Número de pessoas</label>
+          <select id="rGuests" name="rGuests" required>
+            <option value="">Selecione</option>
+            <option>1 pessoa</option>
+            <option>2 pessoas</option>
+            <option>3 pessoas</option>
+            <option>4 pessoas</option>
+            <option>5 pessoas</option>
+            <option>6+ pessoas</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Confirmar reserva</button>
+      </form>
+    </div>
+
+    <div id="reserveSuccess" class="reserve-success">
+      <div class="success-mark">&#10003;</div>
+      <h3>Reserva enviada!</h3>
+      <p>Obrigado, <span id="successName">—</span>. Confirmaremos sua mesa para <span id="successDetails">—</span> em breve pelo telefone informado.</p>
+      <button class="btn btn-outline" id="reserveAgain">Fechar</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
